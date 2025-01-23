@@ -59,6 +59,8 @@ public class PetTest {
         //a as
     }
 
+
+
     @AfterMethod
     public void afterMethod() {
         petSteps.deletePet(BASE_URL, id);
