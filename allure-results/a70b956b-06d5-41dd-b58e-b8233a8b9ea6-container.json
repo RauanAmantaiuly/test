@@ -1,0 +1,1 @@
+{"uuid":"a70b956b-06d5-41dd-b58e-b8233a8b9ea6","name":"test1.PetTest.afterMethod","children":["a9e9f797-85a2-4c0b-9f18-83977fc00e2c"],"description":"","befores":[],"afters":[{"name":"afterMethod","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1737464280832,"stop":1737464281871}],"start":1737464280832,"stop":1737464281871}

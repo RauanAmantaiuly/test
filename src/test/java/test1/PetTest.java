@@ -48,6 +48,7 @@ public class PetTest {
 
         Allure.step("Retrieving the created pet", () -> {
             id = pet1.getId();
+
             Response responseGet = petSteps.getPet(BASE_URL, id);
             Pet petGet = responseGet.as(Pet.class);
             petSteps.checkPet(pet1, petGet);
