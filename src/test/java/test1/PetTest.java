@@ -45,7 +45,11 @@ public class PetTest {
             Pet petPOST = responsePOST.as(Pet.class);
             Assert.assertNotNull(petPOST, "Pet POST response is null");
         });
-
+        Allure.step("Adding a new pet", () -> {
+            Response responsePOST = petSteps.addPet(BASE_URL, pet1);
+            Pet petPOST = responsePOST.as(Pet.class);
+            Assert.assertNotNull(petPOST, "Pet POST response is null");
+        });
         Allure.step("Retrieving the created pet", () -> {
             id = pet1.getId();
 
