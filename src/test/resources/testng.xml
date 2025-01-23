@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="PetStoreTests">
-    <test name="PetTests">
+<suite name="All Tests">
+    <test name="PetStore Tests">
         <classes>
             <class name="test1.PetTest" />
         </classes>
