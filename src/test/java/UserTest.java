@@ -8,7 +8,7 @@ public class UserTest {
     private static final String BASE_URL = "https://gorest.co.in/public/v2";
     private static final String TOKEN = "2c7fae79c864a3bfced73d78aac54d214335f871eb27e79b44549e1ac3df9861";
     private UserSteps userSteps = new UserSteps();
-    private int id = 788771;
+    private int id = 788761;
 
     @Test
     public void test() {
