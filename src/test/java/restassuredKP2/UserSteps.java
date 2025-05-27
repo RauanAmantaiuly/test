@@ -1,11 +1,13 @@
 package restassuredKP2;
 
+import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 public class UserSteps {
 
+    @Step("add User")
     public UserResponse addUser(String uri, UserRequest user) {
         return RestAssured
                 .given()
@@ -21,6 +23,7 @@ public class UserSteps {
                 .as(UserResponse.class);
     }
 
+    @Step("get User")
     public UserResponse getUserById(String uri, int id) {
         return RestAssured
                 .given()
@@ -35,6 +38,7 @@ public class UserSteps {
 
     }
 
+    @Step("duplicate User")
     public Response duplicateUser(String uri, UserRequest userRequest) {
         return RestAssured
                 .given()
@@ -49,6 +53,7 @@ public class UserSteps {
                 .extract().response();
     }
 
+    @Step("delete User")
     public Response deleteUser(String uri, int id) {
         return RestAssured
                 .given()
@@ -61,6 +66,7 @@ public class UserSteps {
                 .extract().response();
     }
 
+    @Step("get User Not Found")
     public Response getUserNotFound(String uri, int id) {
         return RestAssured.given()
                 .baseUri(uri)
