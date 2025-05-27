@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Jan 21 18:10:33 QYZT 2025","Tue Jan 21 18:10:37 QYZT 2025","4442","Default Suite","test","test1.PetTest","test1.PetTest","test","Add pet and check",""
+"passed","Tue Jan 21 18:10:33 QYZT 2025","Tue Jan 21 18:10:37 QYZT 2025","4442","Default Suite","test","test1.PetTests","test1.PetTests","test","Add pet and check",""

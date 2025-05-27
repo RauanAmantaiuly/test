@@ -11,14 +11,11 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.concurrent.ExecutionException;
-import java.util.stream.Collectors;
 
 @Listeners({io.qameta.allure.testng.AllureTestNg.class})
-public class PetTest {
-    private static final Logger log = LoggerFactory.getLogger(PetTest.class);
+public class PetTests {
+    private static final Logger log = LoggerFactory.getLogger(PetTests.class);
     private final String BASE_URL = "https://petstore.swagger.io/";
     private PetSteps petSteps = new PetSteps();
     private int id;
