@@ -1,3 +1,5 @@
+package restassuredKP2;
+
 public class UserGenerator {
 
     public static UserRequest generateUser(String name, String email, String gender, String status) {

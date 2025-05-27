@@ -1,8 +1,8 @@
-import io.qameta.allure.Step;
+package restassuredKP2;
+
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import test1.Pet;
 
 public class UserSteps {
 

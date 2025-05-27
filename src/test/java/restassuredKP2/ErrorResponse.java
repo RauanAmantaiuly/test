@@ -1,3 +1,5 @@
+package restassuredKP2;
+
 import lombok.Data;
 
 @Data

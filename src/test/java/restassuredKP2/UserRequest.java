@@ -1,3 +1,5 @@
+package restassuredKP2;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
